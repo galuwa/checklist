@@ -1,8 +1,10 @@
 
 const CACHE_NAME = "checklist-cache-v1";
 const FILES_TO_CACHE = [
-  "N89SF_Checklist.html",
-  "manifest.json"
+  "index.html",
+  "manifest.json",
+  "icon-192.png",
+  "icon-512.png"
 ];
 
 self.addEventListener("install", (evt) => {
